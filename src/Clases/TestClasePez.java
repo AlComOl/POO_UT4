@@ -36,7 +36,7 @@ public class TestClasePez{
 		System.out.println("Utilizando la clase clone para clonar al pez2 en pez3");
 		pez3=pez2.clone();
 //		sacamos el nombre del pez3
-		System.out.println(pez3.nombre);
+		System.out.println(pez3.nombre);//es el nombre del pez1 porque pez2 apunta a pez1
 	
 
 	}
