@@ -2,21 +2,20 @@ package Clases;
 
 public class TestClasePez{
 	public static void main(String[] args) throws Exception{
-		ClasePez pez1 =new ClasePez();
-		ClasePez pez2 =new ClasePez();
-		ClasePez pez3 =new ClasePez();
-		ClasePez pez4 =new ClasePez("null");//he apuntado a null con el constructor parametrizado
-		
+		Pez pez1 =new Pez();
+		Pez pez2 =new Pez();
+		Pez pez3 =new Pez();
+		Pez pez4 =new Pez("nemo");
 //		establezco valores del atributo mediante los setters
 		pez1.setNombre("Pepito");
 		pez2.setNombre("triqui");
 //		Muestro los nombres de los atributos 
-	System.out.println(	pez1.getClasePez());
-	System.out.println(	pez2.getClasePez());
+	System.out.println(	pez1.getNombre());
+	System.out.println(	pez2.getNombre());
 //		pez1 apunta a pez2  el contenido es igual 
 			pez2=pez1;
 //		Probando que el parametro apunte a nulo por lo tanto
-			System.out.println("Comparo pez4 apunta null y p2 que es triqui");
+			System.out.println("Comparo pez4 , paso por el constructor nemo y p2 que es triqui");
 		System.out.println(pez4.equals(pez2));
 ////		con el metodo equals vemos comparamos y vemos que son exactamente iguales 
 		System.out.println("Comparo pez1 apunta a pez2 , son iguales");
@@ -27,9 +26,9 @@ public class TestClasePez{
 		if(pez4.equals(pez3)) {
 			boolean iguales=true;
 			System.out.println(iguales);
-		}else {
-			boolean iguales=false;
-			System.out.println(iguales);
+		}else if (pez4.equals(null)){
+			//boolean iguales=false;
+			System.out.println("Es igual a nulo");
 		}
 //		
 ////		mediante el metodo clone hacemos un clon del pez 2 y lo metemos en pez3
