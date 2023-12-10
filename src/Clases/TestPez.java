@@ -50,7 +50,7 @@ public class TestPez {
 		
 		
 		
-		if(pez3.equals(pez2)) {
+		if(pez3.equals(pez1)) {
 			System.out.println("pez2 y pez5 son iguales");
 		}else {
 			System.out.println("pez2 y pez5 son diferentes");
@@ -64,9 +64,9 @@ public class TestPez {
 			System.out.println("pez2 y pez5 son diferentes");
 		}
 	
-		System.out.println("****************Compararlo con un String*********");
+		System.out.println("****************Compararando  pez1 con un String*********");
 	
-		if("Pepe".equals("Pepe")) {
+		if(pez1.equals("Pepe")) {
 			System.out.println("son iguales");
 		}else {
 			System.out.println("pez2 y pez5 son diferentes");
