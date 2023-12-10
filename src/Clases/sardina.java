@@ -1,8 +1,8 @@
 package Clases;
 
-public class sardina extends Pez {
+public class Sardina extends Pez {
 
-	public sardina() {
+	public Sardina() {
 		this.nombre="sardina";
 	}
 	

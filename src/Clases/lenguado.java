@@ -1,5 +1,8 @@
 package Clases;
 
-public class lenguado {
-
+public class Lenguado  extends Pez{
+	
+	public Lenguado() {
+		this.nombre="lenguado";
+	}
 }
