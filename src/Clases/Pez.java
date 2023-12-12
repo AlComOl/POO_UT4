@@ -23,15 +23,22 @@ public class Pez {
 		this.nombre=param;
 	}
 	
-//	public boolean equals(Object a) {
-//		boolean igual;
-//		if(this==a) 
-//			igual = true;
-//		else 
-//			 igual = false;
-//		
-//		return igual;
-//	}
+	public boolean equals(Object a) {
+		boolean igual = false;
+		if(this!=a) {
+			igual = false;
+		}
+		else {
+			Pez nuevo =new Pez();
+			nuevo=(Pez)a;
+			if(this.nombre==(nuevo.nombre)) {
+				 igual = true;
+			}
+		}
+		return igual;
+	}
+	
+
 	
 	
 	public Pez clone(Object p) {

@@ -8,7 +8,7 @@ public class TestPez {
 		Pez pez2 =new Pez("nemo");
 		Sardina pez3 =new Sardina();
 		Lenguado pez4=new Lenguado();
-		
+		Pez pez5 =new Pez();
 		System.out.println("Peces que tengo dentro del acuario");
 		System.out.println("pez1 "+pez1.getNombre());
 		System.out.println("pez2 "+pez2.getNombre());
@@ -37,7 +37,7 @@ public class TestPez {
 
 		System.out.println("*************clonando******************");
 		
-		Pez pez5=pez2.clone(pez2);
+		pez5.clone(pez2);
 		
 		if(pez2.equals(pez5)) {
 			System.out.println("pez2 y pez5 son iguales");
@@ -46,14 +46,15 @@ public class TestPez {
 		}
 		
 		
+		
 		System.out.println("**************Comparando sardina con pez ");
 		
 		
 		
 		if(pez3.equals(pez1)) {
-			System.out.println("pez2 y pez5 son iguales");
+			System.out.println("pez3 y pez1 son iguales");
 		}else {
-			System.out.println("pez2 y pez5 son diferentes");
+			System.out.println("pez3 y pez1 son diferentes");
 		}
 		
 		System.out.println("**************Comparando con un parametro que apunta a null");
@@ -72,6 +73,17 @@ public class TestPez {
 			System.out.println("pez2 y pez5 son diferentes");
 		}
 		
+		System.out.println("********************Comparando los atributos**********");
+		
+//		pez1.setNombre("nemo");
+		
+		pez1=pez2;
+		
+		if(pez1.equals(pez2)) {
+			System.out.println("son iguales");
+		}else {
+			System.out.println("no son iguales");
+		}
 		
 	}
 
