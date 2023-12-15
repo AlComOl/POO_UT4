@@ -11,16 +11,21 @@ public class Cuadrado extends Figura {
 	public int getArea() {
 		return lado*lado;
 		}
-//Lo pongo con eclipse Implementar metodos
+// Implementar metodos
 	@Override
 	public void pintar() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
+		
 		return 0;
+	}
+
+	public void setLado(int i) {
+		this.lado=i;
+		
 	} 
 }

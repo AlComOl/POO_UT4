@@ -1,6 +1,7 @@
 package Figuras;
 
 
+
 public class TestFiguras {
 
 	 public static void main (String[] args){
@@ -22,7 +23,7 @@ public class TestFiguras {
 	 System.out.println("Ancho = " + r1.getAncho());
 	 System.out.println("Alto = " + r1.getAlto());
 	 
-	/* r1.incrementarAncho();
+        r1.incrementarAncho();
 	 r2=r1;
 	 
 	 r1 = r1.incrementarAnchoR();
@@ -64,11 +65,11 @@ public class TestFiguras {
 	 System.out.println("Ancho = " + r4.getAncho());
 	 System.out.println("Alto = " + r4.getAlto());
 	 
-	 */
 	 
 	 
 	 
-	    /*
+	 
+	    
 	//test clone
 	    Rectangulo r5 = (Rectangulo) r1.clone();
 
@@ -97,7 +98,7 @@ public class TestFiguras {
 	//finalizadores
 	   for (int i = 0; i < 20; i++) {
 	        Rectangulo r7 = new Rectangulo(7,5);
-	   }
+	  }
 	   System.runFinalization();
 	//   System.gc();
 	  //prueba m�todo area de la interfaz
@@ -110,10 +111,9 @@ public class TestFiguras {
 	// c2 = c1; //si que lo permite
 	  c1.setLado(25); //si que permite utilizar los m�todos p�blicos
 	  System.out.println("Area c1 = " + c1.area());
+		
 	  
-	  */
 
 	 }
 
-
-}
+	 }

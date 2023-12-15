@@ -9,11 +9,13 @@ public class TestPez {
 		Sardina pez3 =new Sardina();
 		Lenguado pez4=new Lenguado();
 		Pez pez5 =new Pez();
+		Loro loro1=new Loro();
 		System.out.println("Peces que tengo dentro del acuario");
-		System.out.println("pez1 "+pez1.getNombre());
-		System.out.println("pez2 "+pez2.getNombre());
-		System.out.println("pez3 "+pez3.getNombre());
-		System.out.println("pez4 "+pez4.getNombre());
+		System.out.println("pez1 "+pez1.getNombre()+"\t Identificador "+pez1.CodigoAnimal());
+		System.out.println("pez2 "+pez2.getNombre()+"\t Identificador "+pez2.CodigoAnimal());
+		System.out.println("pez3 "+pez3.getNombre()+"\t Identificador "+pez3.CodigoAnimal());
+		System.out.println("pez4 "+pez4.getNombre()+"\t Identificador "+pez4.CodigoAnimal());
+		System.out.println("loro1 "+loro1.getNombre()+"\t Identificador "+pez4.CodigoAnimal());
 		
 		
 		System.out.println("*****************Comparando 2 pez difenrentes");

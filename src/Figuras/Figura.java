@@ -10,8 +10,8 @@ package Figuras;
 		public String getColor() {
 			return color;
 		}
-		public void  setColor() {
-			this.color=color;
+		public void  setColor(String s) {
+			this.color=s;
 		}
 		}
 

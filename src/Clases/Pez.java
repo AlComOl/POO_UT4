@@ -1,8 +1,9 @@
 package Clases;
 
-public class Pez {
+public class Pez extends Animal implements Mascota{
 	
 	protected String nombre;
+	
 	
 	public Pez() {
 		
@@ -45,6 +46,12 @@ public class Pez {
 		Pez nuevo =new Pez();
 		nuevo =(Pez) p;
 		return nuevo;
+	}
+//Implementar metodo de la clase abstracta
+	@Override
+	public int CodigoAnimal() {
+		
+		return this.hashCode();
 	}
 }
 
