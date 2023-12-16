@@ -31,6 +31,7 @@ public class MascarillaQuirurgica extends Mascarilla{
 		
 		this.precioMaximo=precioMaximo;
 	}
+//	hay que sobreescribir la funcion para que coja el IVA adecuadoj
 	@Override
 	public double getParteIVA() {
 		
