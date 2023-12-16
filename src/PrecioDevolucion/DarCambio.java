@@ -2,7 +2,7 @@ package PrecioDevolucion;
 
 public class DarCambio {
 
-	 public static void darCambio(int c) {
+	 public  void darCambio(int c) {
 		   if (c!=0) {
 		   		int d;
 		 		int salidaB;
