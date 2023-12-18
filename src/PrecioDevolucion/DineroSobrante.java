@@ -36,7 +36,7 @@ public class DineroSobrante {
 	        else
 	        	System.out.print("\nLa cantidad de dinero sobrante es: ");
 	        	System.out.print(resto);
-	            System.out.print("€ ");
+	            System.out.print("€");
 	        	System.out.print(vueltas(resto));
 	    }
 		

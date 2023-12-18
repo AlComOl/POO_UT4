@@ -1,6 +1,6 @@
 package PracticaU4_POO_Sorteo;
 
-public class Ninyo extends Sorteo{
+public abstract class Ninyo extends Sorteo{
 
 //	Atributos
 	
