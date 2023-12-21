@@ -18,8 +18,8 @@ public class Navidad extends Sorteo{
 		
 	}
 //	pasamos lod valores del padre y lo invocamos.De manera que temos todos los datos en esta clase
-	public  Navidad(String f, String l, int n1, int c1, int n2, int c2,int tn, int tc, int cn1, int cC1, int cn2, int cC2) {
-		super(f,l,n1,c1,n2,c2);
+	public  Navidad(String fechasS, String lugarS, int num1premio, int cantidad1G, int num2premio, int cantidad2G,int tn, int tc, int cn1, int cC1, int cn2, int cC2) {
+		super(fechasS,lugarS,num1premio,cantidad1G,num2premio,cantidad2G);
 		this.tercerN=tn;
 		this.tercerC=tc;
 		this.cuartoN1=cn1;

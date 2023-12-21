@@ -16,13 +16,13 @@ public Sorteo() {
 		
 }
 
-public Sorteo(String f, String l, int n1, int c1, int n2, int c2) {
-	this.fechaS=f;
-	this.lugarS=l;
-	this.num1premio=n1;
-	this.cantidad1G=c1;
-	this.num2premio=n2;
-	this.cantidad2G=c2;
+public Sorteo(String fechasS, String lugarS, int num1premio, int cantidad1G, int num2premio, int cantidad2G) {
+	this.fechaS=fechasS;
+	this.lugarS=lugarS;
+	this.num1premio=num1premio;
+	this.cantidad1G=cantidad1G;
+	this.num2premio=num2premio;
+	this.cantidad2G=cantidad2G;
 }
 
 public String getFechaS() {
