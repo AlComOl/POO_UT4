@@ -2,6 +2,7 @@ package Figuras;
 
  public abstract class Figura{
 	
+
 		abstract public void pintar ( ) ;
 		abstract public double area ( ) ;
 		
@@ -11,6 +12,7 @@ package Figuras;
 			return color;
 		}
 		public void  setColor(String s) {
+	
 			this.color=s;
 		}
 		}
