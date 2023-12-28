@@ -10,22 +10,25 @@ public class TestPez {
 		Pez pez3 = new Pez();
 //		Pez pez4 = new Pez();
 		Pez pez5 =new Pez("Jose");
+	
 		
 		
 		System.out.println(pez1.getnumpeces());
 		System.out.println(pez2.getnumpeces());
 		System.out.println(pez5.getNombre()+pez5.getnumpeces());
+	
+		
 		
 		
 		
 		Pez pez4 = new Pez(pez2);
 //		compruebo que los peces tienen el mismo atributo(nombre)
 		
-		System.out.println(pez2.getNombre());
-		System.out.println(pez4.getNombre());
-//		con la funcion Object que tenenemos en el ejercicio 2
+		System.out.println(pez1.getNombre());
+		System.out.println(pez5.getNombre());
+//		con la funcion equals que tenenemos en el ejercicio 2
 		
-	if(pez2.equals(pez4)==true) {
+	if(pez1.equals(pez5)==true) {
 		System.out.println("Son iguales");
 	}else {
 		System.out.println("Son distintos");

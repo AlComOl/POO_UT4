@@ -39,7 +39,7 @@ public class Pez {
 	}
 
 	public boolean equals(Object a) {
-		boolean igual = true;
+		boolean igual = false;
 		if(this==a) {
 			igual = true;
 		}
@@ -50,8 +50,8 @@ public class Pez {
 				 igual = true;
 			}
 		}
+		
 		return igual;
 	}
-	
-}
 
+}
