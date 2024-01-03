@@ -40,7 +40,7 @@ public class Ejercicio9 {
 		if(fibo<1) {
 			res=1;//2
 		}else {
-			res=+(fibonacci(fibo-1)+fibonacci(fibo-2));//3	
+			res=fibonacci(fibo-1)+fibonacci(fibo-2);//3	
 		
 		}
 		
