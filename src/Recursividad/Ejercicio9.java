@@ -19,29 +19,34 @@ public class Ejercicio9 {
 		
 		System.out.println(	fibonacci(fibo));//1
 	}
-	
+//	funcion fibonachi iterativo cambio de variables
+//	al salir del bucle para sumar la variable anterior al numero
+//	con el resultado iterativamente.
 	public static int fibonaccIterativo(int fibo) {
-		int ax=0,m=1,n=1,cont=0;
+		int ax=0,m=1,n=1;
 		
 		for(int contador=0;contador<fibo;contador++) {
 			ax=m+n;
 				m=n;
 				n=ax;	
-				cont++;
+			
 		}
 		return ax;
 	}
 	
 	public static int fibonacci(int fibo) {
-		int n=0,m=1,res=1;
-		
+		int res;
+		 
 		if(fibo<1) {
 			res=1;//2
 		}else {
-			res=fibonacci(fibo-1)+fibonacci(fibo-2);//3
-			
+			res=+(fibonacci(fibo-1)+fibonacci(fibo-2));//3	
+		
 		}
+		
+		
 		return res;
+		
 	}
-
+	
 }
