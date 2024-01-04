@@ -25,16 +25,18 @@ public class Ejercicio_12 {
         System.out.println("El MCD es: " + MCD(n1,n2));//1
 
     }
+    
+    
     public static int MCDIterativo(int n1,int n2) {
     	int temp,aux;
-    	if(n1<n2) {
+    	if(n1<n2) {//Ordeno valores por si el n1 es menor que n2
     		temp=n1;
     		n1=n2;
     		n2=temp;
     	}
-    	while(n2>2) {
-    		aux=n1;
-    		n1=n2;
+    	while(n2>2) {//mientras el n2 sea mayor que 2 (el 1 es igual para todos)
+    		aux=n1;//meto el mayor en aux para dividirlo iterativamente 
+    		n1=n2;//al menor  en n1 
     		n2=aux%n2;
     	}
     	return n2;
@@ -50,6 +52,6 @@ public class Ejercicio_12 {
             res = MCD(n2, n1 % n2);//3
         }
         return res; 
-        //Recursividad simple y directa.
+        //Recursividad simple o directa.
     }
 }
