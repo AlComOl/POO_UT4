@@ -6,7 +6,7 @@ public abstract class Ninyo extends Sorteo{
 	
 	private int tercerp;
 	private int cantidadp;
-	private int reintegro2;
+	private int reintegro2;//revisar deberia ser un metodo 
 	private int reintegro3;
 	
 //	Constructores

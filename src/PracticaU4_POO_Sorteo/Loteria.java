@@ -7,8 +7,8 @@ public interface Loteria {
 	public  int tipo=20 ;
 	public final int LIMITE=40000;
 	
-	
-	public abstract void  reintegroPP();
+//	una interface tiene todos los metodos por hacer
+	public abstract int  reintegroPP();//no hace falta ponerlo 
 	public abstract int getLimite();
 	public abstract int getTipo();
 	public abstract String toString();

@@ -4,8 +4,8 @@ public class Ordinario extends Sorteo {
 
 //	Atributos
 	
-	private int reintegro2;//número del segundo reintegro
-	private int reintegro3;//numero del tercer reintegro
+	private int reintegro2;//número del segundo reintegro revisar
+	private int reintegro3;//numero del tercer reintegro revisar atributos extra
 	
 	
 //	constructores
@@ -45,10 +45,10 @@ public class Ordinario extends Sorteo {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
-	@Override
-	public int reintegroPP() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+//
+//	@Override
+//	public int reintegroPP() {
+//		// TODO Auto-generated method stub
+//		return 0;
+//	}
 }

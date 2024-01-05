@@ -7,7 +7,7 @@ public class Navidad extends Sorteo{
 	private  int tercerN;
 	private  int  tercerC;
 	private  int cuartoN1;
-	private  int cuartoC1;
+	private  int cuartoC1;//Solo tiene que haver un premio del cuarto premio
 	private  int cuartoN2;
 	private  int cuartoC2;
 	
@@ -71,10 +71,11 @@ public class Navidad extends Sorteo{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	public void reintegroPP(int numero) {
-		int reintegro=numero%10;	
-		System.out.println(reintegro);
-	}
+//	aqui no haria falta hacer este metodo porque lo hereda de la madre
+//	public void reintegroPP(int numero) {
+//		int reintegro=numero%10;	
+//		System.out.println(reintegro);
+//	}
 	
 	@Override
 	public String toString() {

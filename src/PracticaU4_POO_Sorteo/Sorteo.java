@@ -25,7 +25,7 @@ public Sorteo(String fechasS, String lugarS, int num1premio, int cantidad1G, int
 	this.cantidad2G=cantidad2G;
 }
 
-public String getFechaS() {
+public  String getFechaS() {
 	return fechaS;
 }
 
@@ -74,9 +74,9 @@ public void setCantidad2G(int cantidad2g) {
 
 }
 
-public void reintegroPP(int numero) {
+public int  reintegroPP(int numero) {
 	int reintegro=numero%10;	
-	System.out.println(reintegro);
+	return reintegro;
 }
 
 
