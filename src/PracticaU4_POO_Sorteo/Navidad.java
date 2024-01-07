@@ -17,7 +17,7 @@ public class Navidad extends Sorteo{
 	public Navidad() {
 		
 	}
-//	pasamos lod valores del padre y lo invocamos.De manera que temos todos los datos en esta clase
+//	pasamos los valores del padre y lo invocamos.De manera que tenemos todos los datos en esta clase
 	public  Navidad(String fechasS, String lugarS, int num1premio, int cantidad1G, int num2premio, int cantidad2G,int tn, int tc, int cn1, int cC1, int cn2, int cC2) {
 		super(fechasS,lugarS,num1premio,cantidad1G,num2premio,cantidad2G);
 		this.tercerN=tn;
@@ -71,7 +71,7 @@ public class Navidad extends Sorteo{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-//	aqui no haria falta hacer este metodo porque lo hereda de la madre
+//	aqui Esta mal este metodo porque lo hereda del padre
 //	public void reintegroPP(int numero) {
 //		int reintegro=numero%10;	
 //		System.out.println(reintegro);
@@ -85,7 +85,8 @@ public class Navidad extends Sorteo{
 				""+"";
 	}
 	@Override
-	public void reintegroPP() {
+	public int reintegroPP() {
+		return cuartoC1;
 		// TODO Auto-generated method stub
 		
 	}

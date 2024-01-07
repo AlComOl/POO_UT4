@@ -45,10 +45,10 @@ public class Ordinario extends Sorteo {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-//
-//	@Override
-//	public int reintegroPP() {
-//		// TODO Auto-generated method stub
-//		return 0;
-//	}
+
+	@Override
+	public int reintegroPP() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
