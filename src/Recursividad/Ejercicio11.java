@@ -1,5 +1,12 @@
 package Recursividad;
 import java.util.*;
+/**************************************************************
+ * Autor: Álvaro Comenge
+ * Fecha:7/01/2024
+ * Descripción:Realice mediante funciones recursivas un programa 
+   que traslade un n�mero entero en base diez a base 2.
+ *
+ ***************************************************************/
 public class Ejercicio11 {
 
 	public static void main(String[] args) {

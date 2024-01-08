@@ -3,7 +3,7 @@ package PruebaPracticaMascarilla;
 public class restoMascarillas extends Mascarilla{
 //	atributos 
 	
-	private int IVA=21;
+	private int IVA=4;
 	private String tipoMascarilla;
 	
 //	constructor 
