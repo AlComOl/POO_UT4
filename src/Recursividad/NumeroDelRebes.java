@@ -11,9 +11,14 @@ public class NumeroDelRebes {
 			for (int i=0;i<n;i++) {
 			n=n/10;
 			}
-					res=n%10*Math.pow(10, longitud(n)-1)+F(n/10);
+					res=n%10*Math.pow(10, longitud(n)-1)+delRebes(n/10);
 		}
 		return res;
 		}
+
+	private int longitud(int n) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }

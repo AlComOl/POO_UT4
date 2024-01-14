@@ -4,7 +4,7 @@ public class CuentaAtras {
 
 	public static void main(String[] args) {
 		
-		cuentaAtras(6);
+	System.out.println(cuentaAtras(6));
 	}
 	
 	public static int cuentaAtras(int param) {
@@ -14,11 +14,12 @@ public class CuentaAtras {
 			 res=0;
 			
 		}else {
+			
 			System.out.println(param);
 			
 			res=1+cuentaAtras(param-1);
-			
-			
+		
+			System.out.println(param);
 		}
 	return 	res;
 	}
