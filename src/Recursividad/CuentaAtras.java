@@ -17,7 +17,7 @@ public class CuentaAtras {
 			
 			System.out.println(param);
 			
-			res=1+cuentaAtras(param-1);
+			res=cuentaAtras(param-1);
 		
 			System.out.println(param);
 		}
