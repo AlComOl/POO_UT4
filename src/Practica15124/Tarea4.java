@@ -27,6 +27,7 @@ public class Tarea4 {
 			
 			if(base>=10) {
 				d=(char) ('A'+(numero%base-10));
+//				d='A'+(numero%base-10));
 			}else {
 				res=eBase(numero/base,base)+d;
 			}
