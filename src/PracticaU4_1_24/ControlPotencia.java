@@ -3,7 +3,7 @@ package PracticaU4_1_24;
 public  final class ControlPotencia extends ControlInstalacion{
 
 	
-	private final int POTMAX=10000, POT=100;
+	private final int POTMAX=10000, POT=100;//no puden ser estaticas las clases porque sino tendrian que ser publicas
 	private int alerta=0;
 	
 	
@@ -27,8 +27,8 @@ public  final class ControlPotencia extends ControlInstalacion{
 
 
 	@Override
-	public void setLectura() {
-		
+	public void setLectura(float a) {
+		dato=a;
 		
 	}
 

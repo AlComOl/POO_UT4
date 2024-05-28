@@ -16,19 +16,21 @@ public final class ControlTemperatura extends ControlInstalacion{
 
 	@Override
 	public void procesarValor() {
-		// TODO Auto-generated method stub
 		
 	}
 	
-	public void setLectura() {
-		
-	}
-
-
 	@Override
-	public float getLectura() {
-		// TODO Auto-generated method stub
-		return 0;
+	public  void setLectura(float a){//aqui quitariamos el abstract para acabar el metodo y que lo hereden las hijas
+		this.dato=a;
 	}
+	@Override
+	public float getLectura(){
+		return dato;
+	}
+	
+	
+
+
+	
 
 }

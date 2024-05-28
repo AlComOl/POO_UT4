@@ -5,7 +5,7 @@ import java.util.*;
 //Para convertir de grados a radianes, multiplica el número de grados por π/180. Esto dará la medida en radianes.
 //Si tienes un ángulo de 90 grados y quieres saber cuánto mide en radianes, multiplica 90 por π/180.
 
-
+//ESTA FORMA MEZCLA ANGULOS Y RADIANES METEMOS ANGULOS Y DEVOLVEMOS RADIANES Y NO ES MUY BUENA
 public class Tarea2_sol2 {
 
 	public static void main(String[] args) {

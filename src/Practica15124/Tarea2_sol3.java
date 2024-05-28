@@ -5,19 +5,19 @@ import java.util.*;
 //Para convertir de grados a radianes, multiplica el número de grados por π/180. Esto dará la medida en radianes.
 //Si tienes un ángulo de 90 grados y quieres saber cuánto mide en radianes, multiplica 90 por π/180.
 
-
+//ESTA ES LA MEJOR SOLUCUIN DE TODAS PORQUE NO MEZCLA 
 public class Tarea2_sol3 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		double Grado;
-		final int CENTINELA;
+		final int CENTINELA=-1;
 		
 		System.out.println("Introduce Angulo");
 		Grado=sc.nextDouble();
 		double referencia[]= {Grado};
 		
-		while(Grado>=0) {
+		while(Grado!=CENTINELA) {
 			
 		System.out.println("El valor del coseno es: "+seCos(Grado,referencia));
 			System.out.println("El valor del seno es "+referencia[0]);

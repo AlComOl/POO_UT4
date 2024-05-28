@@ -20,8 +20,16 @@ public abstract class ControlInstalacion implements Controles{
 	
 	public abstract void procesarValor();
 
-	public  void setLectura(float a) {
-		dato=a;
-	}//necesito poner este metodo aqui.
-}
+	public  void setLectura(float a){//aqui quitariamos el abstract para acabar el metodo y que lo hereden las hijas
+		this.dato=a;
+	}
+	public float getLectura(){
+		return dato;
+	}
+	
+	
+	
+	
+	}
+
 

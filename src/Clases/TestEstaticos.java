@@ -5,7 +5,7 @@ public class TestEstaticos {
 		Cohete c1 = new Cohete();
 		Cohete c2 = new Cohete();
 		Cohete c3 = new Cohete();
-		c3=new Cohete();jhn
+		c3=new Cohete();
 		System.out.println(c1.getCohetes());
 		System.out.println(c3.getCohetes());
 		System.out.println(Cohete.getCohetes());

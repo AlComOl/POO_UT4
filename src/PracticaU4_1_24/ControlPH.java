@@ -7,6 +7,10 @@ public final class ControlPH extends ControlInstalacion{
 //	protected float dato;
 	protected String nombre;
 	
+	public ControlPH() {
+		
+	}
+	
 	public ControlPH(float minpH,float maxpH,String nombre,float dato) {
 		super(nombre, dato);
 		
@@ -14,7 +18,7 @@ public final class ControlPH extends ControlInstalacion{
 
 	@Override
 	public void procesarValor() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
@@ -33,7 +37,7 @@ public final class ControlPH extends ControlInstalacion{
 		this.maxpH = maxpH;
 	}
 
-	public String getNombre() {
+	public String getNombre() {///TAREA 1.6 NO SE PORQUE ME PASA ESTO 
 		return nombre;
 	}
 
